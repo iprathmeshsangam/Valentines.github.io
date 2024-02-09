@@ -9,7 +9,7 @@ const animationTimeline = () => {
     .join("</span><span>")}</span`;
 
   hbd.innerHTML = `<span>${hbd.innerHTML
-    .split(" ")
+    .split("")
     .join("</span><span>")}</span`;
 
   const ideaTextTrans = {
@@ -108,7 +108,7 @@ const animationTimeline = () => {
     .to(".idea-3 strong", 0.5, {
       scale: 1.2,
       x: 10,
-      backgroundColor: "rgb(21, 161, 237)",
+      backgroundColor: "rgb(237, 21, 89)",
       color: "#fff",
     })
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
@@ -222,7 +222,7 @@ const animationTimeline = () => {
       {
         scale: 1,
         rotationY: 0,
-        color: "#ff69b4",
+        color: "#3b3b3b",
         ease: Expo.easeOut,
       },
       0.1,
