@@ -5,9 +5,10 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
-  background-color: #bd6ecf;
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
   color: white;
 }
+
 
 .container {
   height: 100vh;
