@@ -9,7 +9,7 @@ const animationTimeline = () => {
     .join("</span><span>")}</span`;
 
   hbd.innerHTML = `<span>${hbd.innerHTML
-    .split("")
+    .split(" ")
     .join("</span><span>")}</span`;
 
   const ideaTextTrans = {
